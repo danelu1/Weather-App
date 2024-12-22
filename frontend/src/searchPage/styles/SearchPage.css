@@ -1,0 +1,22 @@
+.search-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-icon {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-icon:hover {
+    cursor: pointer;
+    color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: translateY(-10px);
+}
+
+.info-icon svg {
+    width: 40px;
+    height: 40px;
+}
